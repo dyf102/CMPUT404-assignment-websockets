@@ -100,10 +100,6 @@ def read_ws(ws,client):
             #print "WS RECV %s" % msg
             if msg is not None:
                 packet = json.loads(msg)
-                #print packet
-                # Receive each key and packet as they are updated and update 
-                # the current world with it. 
-                # The set function has the set listener to send the data to all clients
                 for k, data in packet.iteritems():
                     #print "(k, data) is (%s,%s)" % (k,data)
                     myWorld.set(k,data)
