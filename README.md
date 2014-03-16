@@ -14,6 +14,12 @@ pip install flask-sockets
 
 pip install ws4py
 
+Acknowledgements
+================
+
+Some websocket broadcast code is from Abram Hindle's
+[WebSockets examples.](https://github.com/abramhindle/WebSocketsExamples)
+
 Contributors / Licensing
 ========================
 
